@@ -1,0 +1,105 @@
+body {
+	line-height: 10px;
+	background: #f7f9fc;
+	color: #575f7d;
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+h2 {
+	color: rgb(39, 204, 39);
+	/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6b72e1;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+.btn-blue:hover {
+	color: white;
+	background-color: black;
+}
+
+li {
+	line-height: 30px;
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+div {
+	display: block;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	/* border-radius: 150px; */
+}
+
+.btn-blue {
+	background-color: #6b72e1;
+	color: white;
+	padding: 12px 18px;
+	border-radius: 4px;
+}
+
+.list-inline li {
+	display: inline;
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+	padding: 5px;
+}
+
+.fab {
+	/* background-color: #d2d5d8; */
+	color: rgb(194, 192, 192);
+	padding: 5px;
+	border-radius: 4px;
+	font-size: 24px;
+}
+
+.fab:hover {
+	color: black;
+}
+
+.container {
+	max-width: 640px;
+	margin: 100px auto;
+}
+
+p {
+	padding: 16px;
+	size: 10px;
+	line-height: 15px;
+}
+
+@media (max-width: 960px) {
+	/* For a screen < 960px, this CSS will be read */
+	.container {
+		width: 700px;
+	}
+}
+@media (max-width: 720px) {
+	/* For a screen < 720px, this CSS will be read */
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	/* For a screen < 540px, this CSS will be read */
+	.container {
+		width: 300px;
+	}
+}
